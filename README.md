@@ -104,7 +104,7 @@ _waitForEndTrajectory_
 
 **Main.py**
 
-Receives an initial and target board states and returns a set of instructions required to transform the initial to the target state (if one exists)
+Receives an initial and target board states and returns a set of instructions required to transform the initial to the target state (if one exists).
 
 
 
@@ -116,11 +116,11 @@ Provides a web server for the web client - using nodejs and express.
 
 
 
+---
 
 
 
-
-Running the code
+**Running the code**
 
 In order to run the simulation in gazebo, run the following commands in terminal:
 
