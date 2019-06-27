@@ -1,0 +1,34 @@
+<html>
+<header>
+    <title>Object Manipulation</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</header>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+<body>
+<div class="title"> Enter dimentions NxN </div>
+<input id="rows" placeholder="N" type="text"/>
+<!-- <input id="cols" placeholder="Columns" type="text"/> -->
+<input id="createBtn" value="Create" type="button"/>
+    <div id="tables">
+        <div id="init_table"></div>
+        <div id="target_table"></div>
+    </div>
+        <div  style="  width: 56.4%; display:grid;  grid-template-columns: 1fr 1fr;" >
+            <label class="switch">
+                <input id="chkColor" type="checkbox">
+                <span class="slider"></span>
+            </label>
+            <!-- <form action="/matrix" method="post"> -->
+                <input name="id" id="sendBtn" style="display:none" value="Send" type="submit"/>
+            <!-- </form> -->
+        </div>
+        <br>
+        <div class="title"> 
+            <div id="answer">
+            </div>
+        </div>
+
+        
+</body>
+</html>
