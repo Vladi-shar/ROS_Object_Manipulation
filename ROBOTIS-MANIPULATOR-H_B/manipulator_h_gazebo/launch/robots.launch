@@ -1,0 +1,22 @@
+<launch>
+  <!-- No namespace here as we will share this description. 
+       Access with slash at the beginning -->
+  <param name="robot_description"
+    command="$(find xacro)/xacro.py $(find manipulator_h_description)/urdf/manipulator_h.xacro" />
+
+  <!-- BEGIN ROBOT 1-->
+  <group ns="robot1">
+    <param name="tf_prefix" value="robot1_tf" />
+    <include file="$(find manipulator_h_gazebo)/launch/manipulator_h_gazebo_alex.launch" >
+
+    </include>
+  </group>
+
+  <!-- BEGIN ROBOT 2-->
+  <group ns="robot2">
+    <param name="tf_prefix" value="robot2_tf" />
+    <include file="$(find ezgripper_driver)/launch/robotdual_gazebo_alex.launch" >
+
+    </include>
+  </group>
+</launch>
