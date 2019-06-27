@@ -152,6 +152,7 @@ Black\_m\_boxes1.world -
  black\_m\_boxes2.world
 
  ![world2](https://github.com/Vladi-shar/ROS_Object_Manipulation/blob/master/Images/mov_boxes2.png)
+ 
 Both located in the directory:
 
 
@@ -171,6 +172,7 @@ Open a web browser and enter the following link:
 Choose the desired board size
 
  ![site1](https://github.com/Vladi-shar/ROS_Object_Manipulation/blob/master/Images/site1.png)
+ 
 After choosing the desired board size, you may insert obstacles and the target objects.
 
 Note that the robotic arm is located to the right of the board.
