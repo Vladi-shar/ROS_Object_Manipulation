@@ -1,3 +1,5 @@
+VIDEO - https://www.youtube.com/watch?v=qiVXiLYGEFg
+
 # Objects Manipulation
 
 ## Project Report
