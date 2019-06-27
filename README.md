@@ -149,6 +149,7 @@ Provided are two world configurations to use in the gazebo simulation:
 Black\_m\_boxes1.world -
 
  ![world1](https://github.com/Vladi-shar/ROS_Object_Manipulation/blob/master/Images/mov_boxes1.png)
+ 
  black\_m\_boxes2.world
 
  ![world2](https://github.com/Vladi-shar/ROS_Object_Manipulation/blob/master/Images/mov_boxes2.png)
@@ -184,6 +185,7 @@ The red square is the goal.
 Choosing between green and red squares is done by clicking the switch.
 
  ![site2](https://github.com/Vladi-shar/ROS_Object_Manipulation/blob/master/Images/site2.png)
+ 
 Hitting the send button will return the instructions string if one exists.
 
  ![site3](https://github.com/Vladi-shar/ROS_Object_Manipulation/blob/master/Images/site3.png)
